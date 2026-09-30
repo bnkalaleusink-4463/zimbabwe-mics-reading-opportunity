@@ -1,0 +1,38 @@
+# MICS source data — never commit raw/restricted microdata
+data/*
+!data/README.md
+
+# Derived datasets that may contain row-level microdata
+*.sav
+*.zsav
+*.dta
+*.sas7bdat
+*.por
+*.csv
+*.xlsx
+*.parquet
+*.feather
+*.pkl
+*.pickle
+*.zip
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+env/
+
+# IDE / OS
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+
+# Temporary files
+*.tmp
+*.temp
+~$*
