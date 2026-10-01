@@ -68,7 +68,7 @@ The original Zimbabwe MICS 2019 microdata are **not redistributed in this reposi
 
 Researchers wishing to reproduce the analysis should obtain authorised access to the Zimbabwe MICS 2019 microdata from an official/authorised MICS data source. The notebook expects the relevant 5–17-year-old SPSS dataset (`fs.sav`) and may require the local data path to be updated depending on how the authorised files are stored.
 
-The `data/` directory is intentionally excluded from version control.
+The data/ directory contains documentation only. The original MICS microdata and other source-data files are intentionally excluded from version control and are not redistributed through this repository.
 
 ## Reproducing the analysis
 
